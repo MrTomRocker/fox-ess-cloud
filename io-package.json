@@ -1,0 +1,88 @@
+{
+	"common": {
+		"name": "fox-ess-cloud",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "FoxESS Cloud",
+			"de": "FoxESS Cloud",
+			"ru": "Облако FoxESS",
+			"pt": "Nuvem FoxESS",
+			"nl": "FoxESS-wolk",
+			"fr": "Nuage FoxESS",
+			"it": "FoxESSNuvola",
+			"es": "Nube FoxESS",
+			"pl": "Chmura FoxESS",
+			"uk": "Хмара FoxESS",
+			"zh-cn": "福克斯云"
+		},
+		"desc": {
+			"en": "This adapter is used to connect the ioBroker to the FoxESS cloud.",
+			"de": "Dieser Adapter wird verwendet, um den ioBroker mit der FoxESS-Cloud zu verbinden.",
+			"ru": "Этот адаптер используется для подключения ioBroker к облаку FoxESS.",
+			"pt": "Este adaptador é usado para conectar o ioBroker à nuvem FoxESS.",
+			"nl": "Deze adapter wordt gebruikt om de ioBroker te verbinden met de FoxESS cloud.",
+			"fr": "Cet adaptateur est utilisé pour connecter l'ioBroker au cloud FoxESS.",
+			"it": "Questo adattatore viene utilizzato per connettere ioBroker al cloud FoxESS.",
+			"es": "Este adaptador se utiliza para conectar ioBroker a la nube FoxESS.",
+			"pl": "Adapter ten służy do połączenia ioBrokera z chmurą FoxESS.",
+			"uk": "Цей адаптер використовується для підключення ioBroker до хмари FoxESS.",
+			"zh-cn": "该适配器用于将 ioBroker 连接到 FoxESS 云。"
+		},
+		"authors": [
+			"MrTomRocker <MrTomRocker@gmail.com>"
+		],
+		"keywords": [
+			"FoxESS"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "fox-ess-cloud.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/MrTomRocker/ioBroker.fox-ess-cloud/main/admin/fox-ess-cloud.png",
+		"readme": "https://github.com/MrTomRocker/ioBroker.fox-ess-cloud/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

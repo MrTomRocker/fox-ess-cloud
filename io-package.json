@@ -79,9 +79,12 @@
 			}
 		]
 	},
+	"encryptedNative": [
+    	"api_key"
+	],	
 	"native": {
-		"option1": true,
-		"option2": "42"
+		"refresh_time_in_seconds": 30,
+		"api_key": ""
 	},
 	"objects": [],
 	"instanceObjects": []

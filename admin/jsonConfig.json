@@ -3,13 +3,13 @@
 	"type": "panel",
 	"items": {
 		"option1": {
-			"type": "checkbox",
-			"label": "option1",
+			"type": "text",
+			"label": "api_key",
 			"newLine": true
 		},
 		"option2": {
-			"type": "text",
-			"label": "option2",
+			"type": "number",
+			"label": "refresh_time_in_seconds",
 			"newLine": true
 		}
 	}
